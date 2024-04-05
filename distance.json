@@ -1,0 +1,22 @@
+ [
+    {
+      "from": "Delhi",
+      "to": "Nagpur",
+      "distance": 500
+    },
+    {
+      "from": "Nagpur",
+      "to": "Chennai",
+      "distance": 400
+    },
+    {
+      "from": "Hyderabad",
+      "to": "Nagpur",
+      "distance": 250
+    },
+    {
+      "from": "Bangalore",
+      "to": "Hyderabad",
+      "distance": 300
+    }
+  ]

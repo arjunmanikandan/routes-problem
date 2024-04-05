@@ -1,0 +1,131 @@
+arjunmanikandan/githubemc1.git/main/text1.txt
+owner/reponame/sub-folder/file-name
+main->branch
+
+for pushing my code into github general rule
+insert->add->commit->push
+
+setup for git
+write these commands in system terminal
+
+git config --global user.name "ssdm"
+
+git config --global user.email "ssdm@gmail.com"
+
+create a seprate folder to work on the code 
+
+now open terminal in vscode because we want the code in our github to be pasted into our vscode
+
+git clone https://github.com/arjunmanikandan/githubemc1.git
+The above link is named as origin
+
+use cd command to move into the respective folder
+
+.git file serves as a bridge between github and the folder in vscode
+
+vs code
+
+git status //U -> A Unmodified to Added//
+
+git add text2.txt
+git commit -m "added"
+
+//always give message//
+
+git commit origin main
+
+For the changes to be reflected
+my file is in the main folder 
+see above file for reference
+
+When you add something in the file
+it shows modified use again this rule insert add commit push
+
+If you delete a file in your vscode then changes have to be reflected in repo as well
+
+same rule
+
+git add file_name 
+//add here means modifying 
+
+
+you have added a new file manually in the repository in github
+you want to pull those changes alone into your vscode 
+
+then git pull
+
+For example if you have a folder with all your files 
+You want to create a new repo in github and push
+
+git init -> initialized empty git repo
+For the folder to show git file
+
+git add . -> all files will be modified
+
+git remote add origin https://github.com/arjunmanikandan/githubemc2.git
+remote-> your system
+
+you should manually create a repo in github for the above statement
+
+git branch
+
+push it to that specific branch
+
+To change branch name git branch -M branch_name(main)
+
+git push origin main
+
+The main use of branches 
+
+To create new branch
+git branch branch_name
+
+git branch -a
+List out all branches
+
+create a branch manually with branch_name
+
+To list out all branches 
+
+git pull
+
+To check the current branch
+git branch
+
+git branch -a 
+
+#example
+main
+branch1
+
+To switch branches 
+
+git checkout branch_name
+
+To merge branches
+
+git merge gitbranch1  (files from both branches are shared among each other)
+
+Working in high level projects you won't have access to main repository
+
+pull request
+
+click on pull request
+
+base : branch_name compare branch_name
+
+click on create pull request
+
+add some description
+
+merge conflict happens when two people edit on the same file simultaneously
+
+That is two people simultaneously make changes of the same file from two different branches
+and try to merge with the main branch
+
+when employee wants to merge two branches to the main branch
+
+
+when we want to pull the changes from the main branch
+
+git pull origin main
