@@ -43,16 +43,9 @@ def display_distance_table(result3,start_city,end_city):
         total_distance = get_distance_between_stops(result1,get_distances())
         print_result([[start_city,end_city,result1,total_distance]])
 
-def main(result3):
-    source_destination_list = []
-    i = 0
-    for item in result3:
-        source_destination_list.append((item["from"],item["to"]))
-        while i < len(source_destination_list):
-            start_city = source_destination_list[i][0]
-            end_city = source_destination_list[i][1]
-            display_distance_table(result3,start_city,end_city)
-            i+=1
+get_cities_cli = sys.argv
+start_city = get_cities_cli[1]
+end_city = get_cities_cli[2]
+print(start_city," ",end_city)
 
-result3 = get_routes()
-main(result3)
+display_distance_table(get_routes(),start_city,end_city)
