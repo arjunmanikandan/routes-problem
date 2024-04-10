@@ -1,30 +1,28 @@
 [{
     "from":"Delhi",
     "to":"Chennai",
-    "stops":"Delhi Nagpur Chennai"
+    "stops":"Delhi,Nagpur,Chennai"
 },
 {
     "from":"Bangalore",
     "to":"Nagpur",
-    "stops":"Bangalore Hyderabad Nagpur"
+    "stops":"Bangalore,Hyderabad,Nagpur"
 },
 {
     "from":"Chennai",
-    "to":"Nagpur",
-    "stops":""
+    "to":"Nagpur"
 },
 {
     "from":"Bangalore",
     "to":"Hyderabad",
-    "stops":"Bangalore Hyderabad"
+    "stops":"Bangalore,Hyderabad"
 },
 {
     "from":"Nagpur",
     "to":"Bangalore",
-    "stops":"Nagpur Hyderabad Bangalore"
+    "stops":"Nagpur,Hyderabad,Bangalore"
 },
 {
     "from":"Delhi",
-    "to":"Nagpur",
-    "stops":""
+    "to":"Nagpur"
 }]
